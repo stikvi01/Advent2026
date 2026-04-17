@@ -1,0 +1,382 @@
+ body {
+     display: flex;
+     justify-content: center;
+     height: 100vh;
+     background-image: url(https://t4.ftcdn.net/jpg/02/33/46/41/360_F_233464107_YKIINRsKd44DmV5fT2n7sgbFVGNNY1Kw.jpg);
+     
+ }
+
+ .grid-container {
+     display: grid;
+
+     grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 70px;
+
+  grid-template-areas:
+     "title  title  title  box5   box17  box15"
+      "title  title  title  box11  box20  box16"
+      "box6   box22  box14  box1   box18  box12"
+      "box10  box21  box2   box24  box4  box8"
+      "box3   box9   box7   box13  box23  box19"
+    
+ }
+.title {
+  grid-area: title;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title img{
+   width: 600px;
+     height: 400px;
+}
+input{
+  border:none;
+  outline:none;
+  display:inline-block;
+  height:20px;
+  vertical-align:middle;
+  position:relative;
+    margin: 10px;
+  right:9px;
+  border-radius:22px;
+  width:200px;
+  box-sizing:border-box;
+  background-color: antiquewhite;
+ 
+}
+.title-1 {
+
+  display: block;
+  transform: rotate(-10deg);
+}
+ 
+ .box1 {
+    
+    width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+    
+     /* enables 3D rotation */
+     cursor: pointer;
+
+ }
+
+ .box2 {
+      width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box3 {
+       width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box4 {
+       width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box5 {
+      width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box6 {
+      width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box7 {
+       width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box8 {
+       width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box9 {
+      width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box10 {
+       width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box11 {
+      width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box12 {
+       width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box13 {
+     width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box14 {
+       width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box15 {
+      width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box16 {
+      width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box17 {
+       width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box18 {
+       width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box19 {
+       width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box20 {
+      width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box21 {
+      width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box22 {
+       width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box23 {
+      width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+  .box24 {
+     width: 200px;
+     height: 200px;
+     position: relative;
+     perspective: 1000px;
+     /* enables 3D rotation */
+     cursor: pointer;
+ 
+ }
+
+ .image {
+     width: 100%;
+     height: 100%;
+     border-radius: 50px;
+     overflow: hidden;
+ }
+
+ .image img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+.door img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /* keeps it from stretching */
+}
+ .door {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+      
+     transform-origin: left;
+     transition: transform 0.8s ease;
+ }
+
+ .box1.open .door {
+    
+     transform: rotateY(-100deg);
+ }
+ .box1.close .door {
+     transform: rotateY(0deg);
+ }
+
+ .box2.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box2.close .door {
+     transform: rotateY(0deg);
+ }
+ .box3.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box4.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box5.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box6.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box7.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box8.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box9.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box10.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box11.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box12.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box13.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box14.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box15.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box16.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box17.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box18.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box19.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box20.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box21.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box22.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box23.open .door {
+     transform: rotateY(-100deg);
+ }
+ .box24.open .door {
+     transform: rotateY(-100deg);
+ }
