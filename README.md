@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project is a digital advent calendar I created as a personal gift for my mom. Each day presents a small math challenge that must be solved to unlock a hidden illustration.
+This project is a digital advent calendar I created as a personal gift for my mom. This is the second version and will be updated. 
+
+Each day presents a small math challenge that must be solved to unlock a hidden illustration.
 
 Behind every “door” is a custom drawing connected to our family—making the experience both playful and meaningful.
 
